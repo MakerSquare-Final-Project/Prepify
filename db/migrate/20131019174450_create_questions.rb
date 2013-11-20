@@ -7,6 +7,7 @@ class CreateQuestions < ActiveRecord::Migration
       t.text :correct_answer
       t.text :explanation
       t.string :image
+      t.string :video
 
       t.timestamps
     end

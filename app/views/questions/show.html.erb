@@ -19,6 +19,10 @@
           <ul class="pricing table">
             <div class="panel radius ">
               <h3><%= @question.body %></h3>
+
+              <div class="slider">
+                <iframe width="640" height="390" src="<%= @question.video%>" frameborder="0" allowfullscreen></iframe>
+              </div>
               <div class="slider"> 
                 <img src="<%= @question.image %>" width="100%" height="auto">  
               </div>

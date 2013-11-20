@@ -17,10 +17,15 @@
   </div>
 
   <div class="field">
+    <%= f.label :video, "Video:" %><br>
+    <%= f.text_field :video %>
+  </div>
+
+  <div class="field">
     <%= f.label :image, "Image:" %><br>
     <%= f.file_field :image %>
-  </div>
-  
+  </div>  
+
   <div class="actions">
     <%= f.submit class: 'tiny button' %>
     <%= link_to "Back" , admin_subject_page_path(@subject, @page), class: 'tiny button' %>
