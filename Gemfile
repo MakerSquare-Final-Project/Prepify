@@ -13,6 +13,8 @@ gem 'hirb'
 
 gem 'pry'
 
+gem 'rspec'
+
 # Use carrierwave for file uploads
 gem 'carrierwave'
 

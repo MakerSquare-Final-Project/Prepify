@@ -1,4 +1,5 @@
 module ApplicationHelper  
+  
   # Based on the current page will return the path for the next page
   def page_to_pageable_path(user, page) 
     if page.pageable_type == "Question"    
